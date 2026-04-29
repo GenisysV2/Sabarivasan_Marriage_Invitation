@@ -207,7 +207,7 @@ END:VCALENDAR`;
               className="btn btn-gold shadow-md"
               style={{ minWidth: '220px', justifyContent: 'center' }}
             >
-              Marrage
+              Marriage
             </motion.button>
           </div>
         </div>
