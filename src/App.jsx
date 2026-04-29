@@ -111,7 +111,7 @@ END:VCALENDAR`;
       <section className="section bg-cream">
         <div className="container">
           <h2 className="text-4xl font-bold text-maroon mb-12">Plan Your Visit</h2>
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="button-container">
             <motion.button 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -170,7 +170,7 @@ END:VCALENDAR`;
       <section className="section bg-white">
         <div className="container">
           <h2 className="text-4xl font-bold text-maroon mb-8">Photo Gallery</h2>
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="button-container">
             <motion.a 
               href="https://youtu.be/m0GZf6zmwek?si=fN7yzKS3j_GPUkjb"
               target="_blank"
@@ -178,7 +178,7 @@ END:VCALENDAR`;
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn btn-maroon shadow-md"
-              style={{ minWidth: '220px', justifyContent: 'center' }}
+              style={{ justifyContent: 'center' }}
             >
               Engagement
             </motion.a>
@@ -187,7 +187,7 @@ END:VCALENDAR`;
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn btn-gold shadow-md"
-              style={{ minWidth: '220px', justifyContent: 'center' }}
+              style={{ justifyContent: 'center' }}
             >
               Pre-Wedding
             </motion.button>
@@ -196,7 +196,7 @@ END:VCALENDAR`;
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn btn-maroon shadow-md"
-              style={{ minWidth: '220px', justifyContent: 'center' }}
+              style={{ justifyContent: 'center' }}
             >
               Wedding
             </motion.button>
@@ -205,7 +205,7 @@ END:VCALENDAR`;
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn btn-gold shadow-md"
-              style={{ minWidth: '220px', justifyContent: 'center' }}
+              style={{ justifyContent: 'center' }}
             >
               Marriage
             </motion.button>
