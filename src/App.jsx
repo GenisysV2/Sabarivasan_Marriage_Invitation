@@ -135,7 +135,9 @@ END:VCALENDAR`;
             <motion.a 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href={`ola://?action=setPickup&dropoff_lat=${weddingDetails.coordinates.lat}&dropoff_lng=${weddingDetails.coordinates.lng}&dropoff_name=${encodeURIComponent(weddingDetails.venue)}`}
+              href={`https://book.olacabs.com/?drop_lat=${weddingDetails.coordinates.lat}&drop_lng=${weddingDetails.coordinates.lng}&drop_name=${encodeURIComponent(weddingDetails.venue)}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-ola shadow-lg"
             >
               <Car className="w-5 h-5" /> Book Ola
@@ -144,7 +146,9 @@ END:VCALENDAR`;
             <motion.a 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href={`uber://?action=setPickup&dropoff[latitude]=${weddingDetails.coordinates.lat}&dropoff[longitude]=${weddingDetails.coordinates.lng}&dropoff[nickname]=${encodeURIComponent(weddingDetails.venue)}`}
+              href={`https://m.uber.com/ul/?action=setPickup&dropoff[latitude]=${weddingDetails.coordinates.lat}&dropoff[longitude]=${weddingDetails.coordinates.lng}&dropoff[nickname]=${encodeURIComponent(weddingDetails.venue)}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-uber shadow-lg"
             >
               <Car className="w-5 h-5" /> Book Uber
